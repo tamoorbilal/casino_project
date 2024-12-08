@@ -10,7 +10,7 @@ const Header = () => {
                         <img src="/public/logo.png" alt="icon" />
                     </Link>
                     {/* Toggle Button for Mobile */}
-                    <button
+                    {/* <button
                         className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
@@ -20,7 +20,18 @@ const Header = () => {
                         aria-label="Toggle navigation"
                     >
                         <span className="navbar-toggler-icon"></span>
-                    </button>
+                    </button> */}
+                    <img
+                        src="/public/bredcrumb_img.png"
+                        alt="icon"
+                        className="navbar-toggler p-0 border-0"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        style={{ cursor: "pointer" }}
+                        />
                     {/* Collapsible Navbar */}
                     <div className="collapse navbar-collapse justify-content-end" id="navbarScroll">
                         <ul className="navbar-nav navbar-nav-scroll gradient-background p-1">

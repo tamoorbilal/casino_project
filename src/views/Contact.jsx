@@ -6,7 +6,7 @@ const Contact = () => {
 
       <section className='bg-image_contact w-100' style={{ paddingTop: '70px' }}>
         <div className='container'>
-          <div className='row justify-content-center align-items-end' style={{ height: '700px', paddingBottom: '150px' }}>
+          <div className='row justify-content-center align-items-end bread_heading_height'>
             <div className='col-lg-8'>
               <h1 className='text-uppercase text-white text-center fw-bold breadcrump_size'>CONTACT US</h1>
               <h3 className='text-uppercase text-center banner_text_color fw-bold '>CASINO CONQUEST</h3>
@@ -21,7 +21,6 @@ const Contact = () => {
             <div className='col-lg-10 col-sm-12'>
               <img src='/public/contact_page_data.png' className='w-100' />
             </div>
-
           </div>
         </div>
       </section>
@@ -110,7 +109,7 @@ const Contact = () => {
             </div>
           </div>
           <div className='row justify-content-center align-items-center'>
-            <div className='col-lg-10 col-sm-12'>
+            <div className='col-lg-10 col-sm-12 px-4'>
               <div className='row'>
                 <div className='col-lg-6'>
                   <div className='mb-2'>
@@ -135,7 +134,7 @@ const Contact = () => {
                     </div>
                     <div className='col-lg-6 align-self-center'>
                       <div className='text-end'>
-                        <button className='text-white btn_background_color px-4 py-2 border-0'>Send</button>
+                        <button className='text-white btn_background_color px-4 py-2 border-0 small_screen_button_width'>Send</button>
                       </div>
                     </div>
                   </div>
@@ -176,7 +175,7 @@ const Contact = () => {
           }}
         >
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 mobile_view_cta_footer_text'>
               <div>
                 <h1 className='text-uppercase pt-5'>
                   CONQUEST REWARDS
@@ -188,13 +187,13 @@ const Contact = () => {
             </div>
             <div className='col-lg-8 align-self-center'>
               <div className='row'>
-                <div className='col-lg-9 mobile_view_btn mb-3'>
+                <div className='col-lg-9 mobile_view_btn mb-3 subscribe_center'>
                   <input type='text' placeholder='Your name' style={{ background: '#FFFFFF33' }} className='my-3 border-0 px-2 py-2 text-white w-75' /><br />
                   <input type='email' placeholder='Your email' style={{ background: '#FFFFFF33' }} className='border-0 px-2 py-2 text-white w-75  ' />
                 </div>
                 <div className='col-lg-3 align-self-center'>
-                  <div className='mobile_view_btn'>
-                    <button className='text-white btn_background_color px-4 py-2 border-0'>Subscribe</button>
+                  <div className='mobile_view_btn subscribe_center'>
+                    <button className='text-white btn_background_color px-4 py-2 border-0 w-75'>Subscribe</button>
                   </div>
                 </div>
               </div>

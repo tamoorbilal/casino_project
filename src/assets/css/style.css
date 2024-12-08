@@ -156,3 +156,14 @@ input::placeholder {
 .mobile_view_btn{
     text-align: end;
 }
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+.banner_height{
+    height: 700px;
+}
+
+.girl_cta_height{
+    height: 500px;
+}

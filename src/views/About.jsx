@@ -6,7 +6,7 @@ const About = () => {
 
       <section className='bg-image-about w-100' style={{ paddingTop: '70px' }}>
         <div className='container'>
-          <div className='row justify-content-center align-items-end' style={{ height: '700px', paddingBottom: '150px' }}>
+          <div className='row justify-content-center align-items-end bread_heading_height'>
             <div className='col-lg-8'>
               <h1 className='text-uppercase text-white text-center fw-bold breadcrump_size'>ABOUT US</h1>
               <h5 className='text-uppercase text-center banner_text_color fw-bold ' style={{ fontSize: '28px' }}>CASINO CONQUEST</h5>
